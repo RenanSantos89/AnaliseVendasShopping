@@ -36,7 +36,7 @@ print(Tic_medio)
 
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
-mail.To = 'renan.jobs13@gmail.com;luiany.lui@gmail.com'
+mail.To = '???@gmail.com;????@gmail.com'
 mail.Subject = 'Relatorio de Vendas por Loja'
 #: formatando numero, , separador de milhar , . separador dedecimal , 2f duas casas decimais
 mail.HTMLBody = f'''
